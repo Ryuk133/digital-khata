@@ -8,3 +8,4 @@ const totalBill = customerOrder.quantity*customerOrder.pricePerunit;
 console.log("Customer:"+customerOrder.customerName);
 console.log("Ordered:" + customerOrder.item);
 console.log("TotalAmount:" + totalBill);
+console.log(customerOrder);
